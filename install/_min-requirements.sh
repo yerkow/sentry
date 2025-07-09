@@ -8,6 +8,6 @@ if [[ "$COMPOSE_PROFILES" == "errors-only" ]]; then
   MIN_RAM_HARD=7000 # MB
   MIN_CPU_HARD=2
 else
-  MIN_RAM_HARD=14000 # MB
+  MIN_RAM_HARD=4096 # MB
   MIN_CPU_HARD=4
 fi
